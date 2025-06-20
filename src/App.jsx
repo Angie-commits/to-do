@@ -9,8 +9,6 @@ function App() {
 
   const handleAddTodo = (e) => {
     e.preventDefault();
-    if (!title.trim() || !description.trim()) return;
-
     const newTodo = {
       id: Date.now(),
       title,
